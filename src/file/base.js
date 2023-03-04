@@ -38,7 +38,7 @@ export class Base extends Component {
             </>)
         }
         mul_input=(<>{mul_input}<br/>
-        <label>Equations : </label> 
+        <label>Equations : </label> ~
         <input type="text"  onInput={(e)=>{this.setState({eq:e.target.value})
         console.log(this.state.eq)}} />
         <button onClick={this.add_formula_fn} >Add</button>
